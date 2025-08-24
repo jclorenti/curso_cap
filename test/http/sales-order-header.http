@@ -1,0 +1,26 @@
+//variaveis
+@localhost=localhost:4004/odata/v4/main
+
+GET http://{{localhost}}/SalesOrderHeaders
+Content-Type: application/json
+
+###
+
+POST http://{{localhost}}/SalesOrderHeaders
+Content-Type: application/json
+
+
+###
+
+DELETE http://{{localhost}}/SalesOrderHeaders(7bce3c64-221d-45f5-807e-4676d8b18a91)
+Content-Type: application/json
+
+
+###
+
+PUT http://{{localhost}}/SalesOrderHeaders(7bce3c64-221d-45f5-807e-4676d8b18a91)
+Content-Type: application/json
+
+{
+    "campo":"valor"
+}
